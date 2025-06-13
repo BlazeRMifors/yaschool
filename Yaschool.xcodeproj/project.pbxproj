@@ -14,6 +14,18 @@
 		8ED44C5A2DFC1C500035D423 /* YaschoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C592DFC1C500035D423 /* YaschoolTests.swift */; };
 		8ED44C642DFC1C500035D423 /* YaschoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C632DFC1C500035D423 /* YaschoolUITests.swift */; };
 		8ED44C662DFC1C500035D423 /* YaschoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C652DFC1C500035D423 /* YaschoolUITestsLaunchTests.swift */; };
+		8ED44C762DFC1DFD0035D423 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C732DFC1DFD0035D423 /* BankAccount.swift */; };
+		8ED44C772DFC1DFD0035D423 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C742DFC1DFD0035D423 /* Category.swift */; };
+		8ED44C782DFC1DFD0035D423 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C752DFC1DFD0035D423 /* Transaction.swift */; };
+		8ED44C7C2DFC1E0F0035D423 /* Transaction+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C7A2DFC1E0F0035D423 /* Transaction+JSON.swift */; };
+		8ED44C7D2DFC1E0F0035D423 /* Transaction+CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C7B2DFC1E0F0035D423 /* Transaction+CSV.swift */; };
+		8ED44C822DFC1E210035D423 /* BankAccountsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C7F2DFC1E210035D423 /* BankAccountsService.swift */; };
+		8ED44C832DFC1E210035D423 /* TransactionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C802DFC1E210035D423 /* TransactionsService.swift */; };
+		8ED44C842DFC1E210035D423 /* CategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C812DFC1E210035D423 /* CategoriesService.swift */; };
+		8ED44C872DFC1E2C0035D423 /* TransactionsFileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C862DFC1E2C0035D423 /* TransactionsFileCache.swift */; };
+		8ED44C892DFC242A0035D423 /* Category+CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C882DFC242A0035D423 /* Category+CSV.swift */; };
+		8ED44C8B2DFC30F80035D423 /* Category+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C8A2DFC30F80035D423 /* Category+JSON.swift */; };
+		8ED44C8D2DFC94650035D423 /* TransactionParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		8ED44C5F2DFC1C500035D423 /* YaschoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaschoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED44C632DFC1C500035D423 /* YaschoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaschoolUITests.swift; sourceTree = "<group>"; };
 		8ED44C652DFC1C500035D423 /* YaschoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaschoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8ED44C732DFC1DFD0035D423 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		8ED44C742DFC1DFD0035D423 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8ED44C752DFC1DFD0035D423 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8ED44C7A2DFC1E0F0035D423 /* Transaction+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+JSON.swift"; sourceTree = "<group>"; };
+		8ED44C7B2DFC1E0F0035D423 /* Transaction+CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Transaction+CSV.swift"; sourceTree = "<group>"; };
+		8ED44C7F2DFC1E210035D423 /* BankAccountsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountsService.swift; sourceTree = "<group>"; };
+		8ED44C802DFC1E210035D423 /* TransactionsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsService.swift; sourceTree = "<group>"; };
+		8ED44C812DFC1E210035D423 /* CategoriesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesService.swift; sourceTree = "<group>"; };
+		8ED44C862DFC1E2C0035D423 /* TransactionsFileCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsFileCache.swift; sourceTree = "<group>"; };
+		8ED44C882DFC242A0035D423 /* Category+CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CSV.swift"; sourceTree = "<group>"; };
+		8ED44C8A2DFC30F80035D423 /* Category+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+JSON.swift"; sourceTree = "<group>"; };
+		8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionParsingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +118,14 @@
 		8ED44C472DFC1C4C0035D423 /* Yaschool */ = {
 			isa = PBXGroup;
 			children = (
-				8ED44C482DFC1C4C0035D423 /* YaschoolApp.swift */,
 				8ED44C4A2DFC1C4C0035D423 /* ContentView.swift */,
+				8ED44C482DFC1C4C0035D423 /* YaschoolApp.swift */,
 				8ED44C4C2DFC1C4F0035D423 /* Assets.xcassets */,
+				8ED44C852DFC1E2C0035D423 /* Cache */,
+				8ED44C792DFC1E0F0035D423 /* Extensions */,
+				8ED44C722DFC1DFD0035D423 /* Models */,
 				8ED44C4E2DFC1C4F0035D423 /* Preview Content */,
+				8ED44C7E2DFC1E210035D423 /* Services */,
 			);
 			path = Yaschool;
 			sourceTree = "<group>";
@@ -114,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED44C592DFC1C500035D423 /* YaschoolTests.swift */,
+				8ED44C8C2DFC94650035D423 /* TransactionParsingTests.swift */,
 			);
 			path = YaschoolTests;
 			sourceTree = "<group>";
@@ -125,6 +154,45 @@
 				8ED44C652DFC1C500035D423 /* YaschoolUITestsLaunchTests.swift */,
 			);
 			path = YaschoolUITests;
+			sourceTree = "<group>";
+		};
+		8ED44C722DFC1DFD0035D423 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ED44C732DFC1DFD0035D423 /* BankAccount.swift */,
+				8ED44C742DFC1DFD0035D423 /* Category.swift */,
+				8ED44C752DFC1DFD0035D423 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8ED44C792DFC1E0F0035D423 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8ED44C882DFC242A0035D423 /* Category+CSV.swift */,
+				8ED44C8A2DFC30F80035D423 /* Category+JSON.swift */,
+				8ED44C7B2DFC1E0F0035D423 /* Transaction+CSV.swift */,
+				8ED44C7A2DFC1E0F0035D423 /* Transaction+JSON.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8ED44C7E2DFC1E210035D423 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8ED44C7F2DFC1E210035D423 /* BankAccountsService.swift */,
+				8ED44C802DFC1E210035D423 /* TransactionsService.swift */,
+				8ED44C812DFC1E210035D423 /* CategoriesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8ED44C852DFC1E2C0035D423 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				8ED44C862DFC1E2C0035D423 /* TransactionsFileCache.swift */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +325,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED44C7C2DFC1E0F0035D423 /* Transaction+JSON.swift in Sources */,
+				8ED44C822DFC1E210035D423 /* BankAccountsService.swift in Sources */,
+				8ED44C892DFC242A0035D423 /* Category+CSV.swift in Sources */,
 				8ED44C4B2DFC1C4C0035D423 /* ContentView.swift in Sources */,
+				8ED44C762DFC1DFD0035D423 /* BankAccount.swift in Sources */,
+				8ED44C832DFC1E210035D423 /* TransactionsService.swift in Sources */,
+				8ED44C842DFC1E210035D423 /* CategoriesService.swift in Sources */,
 				8ED44C492DFC1C4C0035D423 /* YaschoolApp.swift in Sources */,
+				8ED44C772DFC1DFD0035D423 /* Category.swift in Sources */,
+				8ED44C8B2DFC30F80035D423 /* Category+JSON.swift in Sources */,
+				8ED44C782DFC1DFD0035D423 /* Transaction.swift in Sources */,
+				8ED44C872DFC1E2C0035D423 /* TransactionsFileCache.swift in Sources */,
+				8ED44C7D2DFC1E0F0035D423 /* Transaction+CSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED44C8D2DFC94650035D423 /* TransactionParsingTests.swift in Sources */,
 				8ED44C5A2DFC1C500035D423 /* YaschoolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
